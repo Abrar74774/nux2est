@@ -1,6 +1,6 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
-  target: 'static',
+  target: 'server',
   loading: false,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -40,7 +40,8 @@ export default {
     '@chakra-ui/nuxt',
     // https://go.nuxtjs.dev/emotion
     '@nuxtjs/emotion',
-    '@nuxt/http'
+    '@nuxt/http',
+    "@nuxt/image"
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

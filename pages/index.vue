@@ -4,6 +4,9 @@
       <CHeading text-align="center" mb="4">
         ⚡️ Welcome to nux2est
       </CHeading>
+      <CHeading text-align="center" mb="4">
+        pwa-staging is under test. please be passiont.
+      </CHeading>
 
       <NuxtLink :to="'/comments/1'">
         Comment 1
@@ -14,6 +17,10 @@
       <NuxtLink :to="'/users/1'">
         User 1
       </NuxtLink>
+
+
+
+      <nuxt-img src="https://picsum.photos/200" alt="just an alt" />
     </CBox>
   </div>
 </template>
